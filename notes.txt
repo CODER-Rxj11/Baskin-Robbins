@@ -1,0 +1,12 @@
+// FRONT PAGE 
+1. Nav - 3 Components
+2. Image
+3. Card
+4. Special Card
+5,6,7 Cards
+8. Socials
+9. Contacts
+
+
+-> Improve navigation
+-> Bottom to top button 
