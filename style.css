@@ -1,135 +1,168 @@
-*{
-    font-family: "Gilroy";
+* {
+  font-family: "Gilroy";
 }
 
-.page-item>a {
-    width: 10px;
-    height: 15px;
-    border-radius: 50%;
-    background-color: #fff;
+.page-item > a {
+  width: 10px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #fff;
 }
 
 html,
 body {
-    position: relative;
-    height: 100%;
+  position: relative;
+  height: 100%;
 }
 
 body {
-    background: #fff;
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    color: #000;
-    margin: 0;
-    padding: 0;
+  background: #fff;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
 }
 
 .swiper {
-    width: 100%;
-    height: 90%;
+  width: 100%;
+  height: 90%;
 }
 
 .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    /* object-fit: cover; */
+  display: block;
+  width: 100%;
+  height: 100%;
+  /* object-fit: cover; */
 }
 
-.swiper-slide img:hover{
-    /* transform: scale(1.1); */
-    transition: 0.5s;
+.swiper-slide img:hover {
+  /* transform: scale(1.1); */
+  transition: 0.5s;
 }
 
 /* SLIDER 2 */
 .swiper2 {
-    width: 100%;
-    height: 100%;
-    margin: 20px auto;
-    /* background-color: palevioletred; */
+  width: 100%;
+  height: 100%;
+  margin: 20px auto;
+  /* background-color: palevioletred; */
 }
 
 .swiper-slide2 {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .swiper-slide2 .pic {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    transform: translateY(10px) scale(0.75);
-    
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transform: translateY(10px) scale(0.75);
 }
 
-.swiper-slide2 .pic:hover{
-    transform: translateY(-50px) scale(0.75);
-    transition: 0.5s;
-
+.swiper-slide2 .pic:hover {
+  transform: translateY(-50px) scale(0.75);
+  transition: 0.5s;
 }
 
 .swiper2 {
-    width: 100%;
-    height: 600px;
-    margin: 20px auto;
+  width: 100%;
+  height: 600px;
+  margin: 20px auto;
 }
 
 /* SECTION 2 */
 
 .section2 {
-    background: #fff;
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    color: #000;
-    margin: 0;
-    padding: 0;
-    position: relative;
+  background: #fff;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  position: relative;
 }
 
 .swiper3 {
-    position: absolute;
-    width: 500px;
-    height: 500px;
-    position: absolute;
-    left: 85%;
-    top: 75%;
-    transform: translate(-50%, -50%);
-    margin-left: -150px;
-    margin-top: -150px;
-    /* background-color: #000; */
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  left: 85%;
+  top: 75%;
+  transform: translate(-50%, -50%);
+  margin-left: -150px;
+  margin-top: -150px;
+  /* background-color: #000; */
 }
 
 .swiper-slide3 {
-    background-position: center;
-    background-size: cover;
+  background-position: center;
+  background-size: cover;
 }
 
 .swiper-slide3 img {
-    display: block;
-    width: 100%;
+  display: block;
+  width: 100%;
 }
 
 .content {
-    width: 50%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    /* background-color: pink; */
-    text-align: center;
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: pink; */
+  text-align: center;
+}
+
+/* SECTION 4 */
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  /* height: 100%; */
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper4 {
+  width: 100%;
+  height: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide4 {
+  background-position: center;
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+}
+
+.swiper-slide4 img {
+  display: block;
+  width: 100%;
 }

@@ -31,7 +31,7 @@
       class="nav bg-white px-5 py-4 justify-content-between align-items-center fixed-top"
     >
       <img
-        src="./BaskinRobbins_logo.png"
+        src="./images/BaskinRobbins_logo.png"
         width="300"
         class="mx-1 d-inline-block align-top"
         alt=""
@@ -117,10 +117,10 @@
     <div
       class="section position-relative w-100 h-100 px-5 d-flex flex-column justify-content-center align-items-center"
     >
-      <h1 class="position-absolute align-items-top" style="top: 4%">
+      <h1 class="position-absolute align-items-top z-3" style="top: 4%">
         What's New ?
       </h1>
-      <div #swiperRef="" class="swiper2 swiper mySwiper2 mt-5">
+      <div #swiperRef="" class="swiper2 swiper mySwiper2 mt-5 z-2">
         <div class="swiper-wrapper">
           <div class="swiper-slide2 swiper-slide d-flex flex-column">
             <img
@@ -128,7 +128,7 @@
               src="https://cdn.shopify.com/s/files/1/0624/7065/2146/files/Unicorn_Sundae_414x.png?v=1681714046"
               alt=""
             />
-            <img class="bg-pic w-50" src="https://cdn.shopify.com/s/files/1/0624/7065/2146/files/product-shadow-temp.png?v=1681368470" alt="">
+            <!-- <img class="bg-pic w-50" src="https://cdn.shopify.com/s/files/1/0624/7065/2146/files/product-shadow-temp.png?v=1681368470" alt=""> -->
             <h1 style="font-weight: 600">Unicorn</h1>
             <h4>Sundae</h4>
             <button
@@ -138,7 +138,37 @@
               SHOP
             </button>
           </div>
-          <d class="swiper-slide2 swiper-slide d-flex flex-column">
+          <div class="swiper-slide2 swiper-slide d-flex flex-column">
+            <img
+              class="pic"
+              src="https://cdn.shopify.com/s/files/1/0624/7065/2146/files/Blueberry_White_Chocolate_Ice_Cream_414x.png?v=1681714046"
+              alt=""
+            />
+            <h1 style="font-weight: 600">Unicorn</h1>
+            <h4>Sundae</h4>
+            <button
+              class="btn-pink border-0 text-white rounded py-2 px-3"
+              style="background-color: rgb(94%, 31%, 59%); font-weight: 600"
+            >
+              SHOP
+            </button>
+          </div>
+          <div class="swiper-slide2 swiper-slide d-flex flex-column">
+            <img
+              class="pic"
+              src="https://cdn.shopify.com/s/files/1/0624/7065/2146/files/Blueberry_White_Chocolate_Ice_Cream_414x.png?v=1681714046"
+              alt=""
+            />
+            <h1 style="font-weight: 600">Unicorn</h1>
+            <h4>Sundae</h4>
+            <button
+              class="btn-pink border-0 text-white rounded py-2 px-3"
+              style="background-color: rgb(94%, 31%, 59%); font-weight: 600"
+            >
+              SHOP
+            </button>
+          </div>
+          <div class="swiper-slide2 swiper-slide d-flex flex-column">
             <img
               class="pic"
               src="https://cdn.shopify.com/s/files/1/0624/7065/2146/files/Blueberry_White_Chocolate_Ice_Cream_414x.png?v=1681714046"
@@ -159,7 +189,7 @@
       </div>
     </div>
 
-    <div class="section2 align-items-center">
+    <div class="section2 section align-items-center">
       <div class="content blockquote justify-content-center align-items-center">
         <h1>About Baskin Robbins !!!</h1>
         <p class="text-align-center">
@@ -192,6 +222,37 @@
         <div class="swiper-pagination"></div>
       </div>
     </div>
+
+    <!-- SECTION 3 -->
+
+    <section class="overflow-hidden h-100">
+
+    <div class="swiper4 mySwiper4 bg-white h-100 d-flex flex-column align-items-center">
+      <img class="mt-5" src="./images/br x socials.png" alt=""> 
+      <div class="swiper-wrapper justify-content-center align-items-center">
+      <div class="swiper-slide4 swiper-slide">
+        <img src="	https://scontent-xsp1-3.cdninstagram.com/v/t51.363…tTAc48uiO7C2zwCzxKkBfCxJsEl6_VVnnO9-A&oe=648C3EAE" />
+      </div>
+      <div class="swiper-slide4 swiper-slide">
+        <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+      </div>
+      <div class="swiper-slide4 swiper-slide">
+        <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+      </div>
+      <div class="swiper-slide4 swiper-slide">
+        <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+      </div>
+      <div class="swiper-slide4 swiper-slide">
+        <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+      </div>
+      <div class="swiper-slide4 swiper-slide">
+        <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+      </div>
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+  </section>
 
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
@@ -233,7 +294,7 @@
       // <!-- Swiper2 -->
       var swiper2 = new Swiper(".mySwiper2", {
         slidesPerView: 3,
-        centeredSlides: true,
+        centeredSlides: false,
         spaceBetween: 30,
         pagination: {
           el: ".swiper-pagination",
@@ -245,6 +306,7 @@
         },
       });
 
+      // <!-- Swiper3 -->
       var swiper3 = new Swiper(".mySwiper3", {
         effect: "cube",
         grabCursor: true,
@@ -263,6 +325,29 @@
           disableOnInteraction: false,
         },
       });
+
+      // <!-- Swiper4 -->
+    var swiper4 = new Swiper(".mySwiper4", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: false,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+    });
     </script>
   </body>
 </html>
