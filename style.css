@@ -2,6 +2,12 @@
   font-family: "Gilroy";
 }
 
+a,h6{
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+
 .page-item > a {
   width: 10px;
   height: 15px;
@@ -65,6 +71,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  /* margin: 10px auto; */
 }
 
 .swiper-slide2 .pic {
@@ -165,4 +172,45 @@ section {
 .swiper-slide4 img {
   display: block;
   width: 100%;
+}
+
+footer{
+  background-image: url("./images/foot\ img.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.first{
+  display: flex;
+  flex-direction: column;
+}
+
+.top{
+  margin-top: 2em;
+  padding: 3em;
+}
+
+.first input{
+  background: transparent;
+  border: none;
+}
+
+#email{
+  /* background: #FFF; */
+  padding: 0.5em;
+  color:white;
+  border-bottom: 1px solid #fff;
+}
+
+#email:active{
+  border: none;
+}
+
+#email::placeholder{
+  color: #fff;
+}
+
+#btn{
+  margin-left: 1em;
+  background:rgb(94%, 31%, 59%)
 }
