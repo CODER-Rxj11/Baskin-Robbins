@@ -62,7 +62,9 @@ Let me know if you would like me to explain or expand on any part of these insta
 ## 🛠 Skills
 >>• HTML5, CSS3 , JavaScript (ES6+)
 > • SwiperJS, BootStrap
->>• Git, GitHub## Color Reference
+>>• Git, GitHub
+
+## Color Reference
 
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
