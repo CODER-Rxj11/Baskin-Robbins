@@ -22,7 +22,7 @@ Creative liberties were taken in certain areas that could be further refined for
 
 You can simply visit by clicking on the below link.
 
->>[Github] : https://github.com/CODER-Rxj11/duo_studio
+>>[Github] : https://github.com/CODER-Rxj11/Baskin-Robbins
 [Netlify] : https://raj-baskinrobbins.netlify.app/
 ## Installation
 
